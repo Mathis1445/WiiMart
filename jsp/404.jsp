@@ -4,7 +4,7 @@
 <!-- 404 Page -->
 <html>
 <head>
-  <title>WiiMart - Page Not Found</title>
+  <title>WiiMart - Page non trouvée</title>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
   <style type="text/css">
     /* GENERAL */
@@ -107,12 +107,12 @@
 
   <div class="page_content_area">
     <div class="titleBlueL">WiiMart</div>
-    <h1>Whoops! That page was not found!</h1>
+    <h1>Oups! Cette page n'a pas été trouvée!</h1>
     <br>
     <p class="contentsBlack">
-      To go back to the page you were at, click <a href="javascript:window.history.go(-1);">here</a>.
+      Pour aller à la page précédente, cliquez <a href="javascript:window.history.go(-1);">ici</a>.
       <br>
-      Or, you can go back to the first page of the shop by clicking <a href="/oss/serv/W_01.jsp">here</a>.
+      Ou, vous pouvez revenir à la première page de la boutique en cliquant <a href="/oss/serv/W_01.jsp">ici</a>.
     </p>
   </div>
 
