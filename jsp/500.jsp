@@ -6,7 +6,7 @@
 <!-- 500 Page -->
 <html>
 <head>
-  <title>WiiMart - Server Error</title>
+  <title>WiiMart - Erreur du serveur</title>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
   <style type="text/css">
     /* GENERAL */
@@ -109,29 +109,29 @@
 
   <div class="page_content_area">
     <div class="titleBlueL">WiiMart</div>
-    <h1> Uh oh! The server ran into an error and couldn't send a response for you.</h1>
+    <h1> Zute! Le serveur a rencontré une erreur et n'a pas pu vous envoyez une réponse.</h1>
     <br>
     <p class="contentsBlack">
-      There is nothing wrong on your end, so if you want to go back to the page you were at previously, click <a href="javascript:window.history.go(-1);">here</a>.</p>
+      Il n'y a pas de problème de votre côté, donc si vous voulez revenir à la page précédente, cliquez <a href="javascript:window.history.go(-1);">ici</a>.</p>
       <br>
-          <h2>Debug Information:</h2>
+          <h2>Informations de débogage:</h2>
     <%
         // Retrieve the exception object
         Throwable throwable = (Throwable) request.getAttribute("javax.servlet.error.exception");
         if (throwable != null) {
     %>
         <p>
-            <strong>Exception Message:</strong> 
+            <strong>Message d'exception:</strong> 
             <%= throwable.getMessage() %>
         </p>
         <pre>
-            <strong>Stack Trace:</strong>
+            <strong>Trace de pile:</strong>
             <%= org.apache.commons.lang3.exception.ExceptionUtils.getStackTrace(throwable) %>
         </pre>
     <%
         } else {
     %>
-            <p>No exception details are available.</p>
+            <p>Aucun détails d'exception est disponible.</p>
     <%
         }
     %>
